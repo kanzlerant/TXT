@@ -1,0 +1,34 @@
+1. Overview of Data Architecture
+- Can you provide me with an overview of the bank's current data architecture?
+- What are the main data sources (in addition to Avaloq) that feed into our Data Warehouse?
+- There is an AG for the servers ?
+
+2. Managing Data Ingestion Flows
+- How do we manage the data ingestion flows from various sources into the Data Warehouse?
+
+3. Role of Avaloq and Data Standardization
+- Do all subsidiaries use Avaloq as the core banking system?
+- Are there differences in data coming from subsidiaries despite using Avaloq?
+
+4. Structure of the Data Warehouse and Data Marts
+- If I understood well, there are three layers in the DWH: Staging, Data Warehouse, and Data Mart?
+- Why do we have only one Data Mart instead of several?
+- Would it be beneficial to have specific Data Marts for each subsidiary or department?
+
+7. Roles and Responsibilities within the Team
+- Can you describe your specific roles and responsibilities within the BI team?
+
+10. Current Challenges and Opportunities for Improvement
+- What are the main challenges the team is currently facing in data management?
+- Are there specific areas where improvements are needed or planned?
+
+
+
+Data Categories :
+- Clients (First Name, Last Name, Nationality, Gender, TIN Number, Tax Residence, etc)
+- Accounts (Account Type, Account Open Date, Account Currency)
+- Cash Transactions (Cash IN, Cash OUT, Internal Transfer)
+- Payments (Payment Type, Payment Source, etc)
+- Trades
+- Other transactions (Dividends, Corporate Actions, etc)
+- Credits, etc
