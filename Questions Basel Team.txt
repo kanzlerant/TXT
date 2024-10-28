@@ -24,11 +24,6 @@
 
 
 
-Data Categories :
-- Clients (First Name, Last Name, Nationality, Gender, TIN Number, Tax Residence, etc)
-- Accounts (Account Type, Account Open Date, Account Currency)
-- Cash Transactions (Cash IN, Cash OUT, Internal Transfer)
-- Payments (Payment Type, Payment Source, etc)
-- Trades
-- Other transactions (Dividends, Corporate Actions, etc)
-- Credits, etc
+Mon nouveau employeur m’avait demander de commencer le 1er octobre. Avec Alexandre mon responsable nous avons accordé de prolonger d’une semaine car le préavis semblait trop court. En conséquence j’ai donné ma démission au date de mon dernier jour de travail, vendredi 4 octobre, en n’étant pas spécialiste de payroll je n’ai pas pensé que je devais donner ma lettre de démission avec une date au dimanche 6 octobre.
+Comment cela fait que tu ne m’as pas alerté sur le fait que j’aillais perdre deux jours de salaire pour le moins d’octobre à cause de ça ? C’est toi le spécialiste payroll pas moi.
+Je demande d’être payé en cohérence avec mon travail, j’ai travaillé la totalité du mois d’octobre et vous m’avez payé deux jours de moins.
