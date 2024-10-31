@@ -24,6 +24,68 @@
 
 
 
-Mon nouveau employeur m’avait demander de commencer le 1er octobre. Avec Alexandre mon responsable nous avons accordé de prolonger d’une semaine car le préavis semblait trop court. En conséquence j’ai donné ma démission au date de mon dernier jour de travail, vendredi 4 octobre, en n’étant pas spécialiste de payroll je n’ai pas pensé que je devais donner ma lettre de démission avec une date au dimanche 6 octobre.
-Comment cela fait que tu ne m’as pas alerté sur le fait que j’aillais perdre deux jours de salaire pour le moins d’octobre à cause de ça ? C’est toi le spécialiste payroll pas moi.
-Je demande d’être payé en cohérence avec mon travail, j’ai travaillé la totalité du mois d’octobre et vous m’avez payé deux jours de moins.
+
+	-----------------------------------------------------------------------------------------
+	-- Clients are splited into three different categories : 
+
+		-- CATEGORY A : Clients who never finished the onboarding with Cash App
+		-- CATEGORY B : Clients who have completely finished the onboarding with cash app
+		-- CATEGORY C : Clients who never used cash APP
+
+	-- Only clients who has open an account after 01-01-2019 are take in account
+
+	-----------------------------------------------------------------------------------------
+
+	/***************************************************************************************/
+	/*****************************     XXXXXXXX ONBOARDING     *****************************/
+	/***************************************************************************************/
+
+	-----------------------------------------------------------------------------------------
+	-- CATEGORY A
+	-----------------------------------------------------------------------------------------
+
+	-----------------------------------------------------------------------------------------
+	-- Cleaning Onboarding Status Steps (CATEGORY A & CATEGORY B)
+	-----------------------------------------------------------------------------------------
+
+	-----------------------------------------------------------------------------------------
+	-- Stop status transition at 'Wait For Funds' Status
+	-----------------------------------------------------------------------------------------
+	-- BP example goes beyond than WaitForFund	>> PROC_INST_ID_ = x	REF_NUMBER = 'x'
+	-- BP example stops before WaitForFunds		  >> PROC_INST_ID_ = x
+
+	-----------------------------------------------------------------------------------------
+	-- Completing informations with entity and team name
+	-----------------------------------------------------------------------------------------
+
+	-- Fixing missing funding Dates
+
+	-- Unpivot #FundedTradedClean
+
+	/***************************************************************************************/
+	/***************************     ONBOARDING FINAL TABLE     ****************************/
+	/***************************************************************************************/
+
+	-----------------------------------------------------------------------------------------
+	-- Union all Categories of clients 
+	-----------------------------------------------------------------------------------------
+
+	-----------------------------------------------------------------------------------------
+	-- Ranking Statuses
+	-----------------------------------------------------------------------------------------
+
+	-----------------------------------------------------------------------------------------
+	-- Preparing final table 
+	-----------------------------------------------------------------------------------------
+
+	------------------------------------------------------------------------------------------
+	-- Calculating 'Time In Status'
+	------------------------------------------------------------------------------------------
+
+	------------------------------------------------------------------------------------------
+	-- Final table, data ready to insert
+	------------------------------------------------------------------------------------------
+
+	------------------------------------------------------------------------------------------
+	-- INSERT DATA
+	------------------------------------------------------------------------------------------
